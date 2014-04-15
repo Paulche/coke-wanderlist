@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="dzf-7K-aFb">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="fhx-zd-cZE">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="dzf-7K-aFb" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jv9-hh-8aQ">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="0z7-Dq-lGo" kind="relationship" relationship="rootViewController" id="c3r-mF-F6d"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VCj-91-uOC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-916" y="-286"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HSK-QY-n6W">
+            <objects>
+                <viewController id="0z7-Dq-lGo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7E9-nb-lel"/>
+                        <viewControllerLayoutGuide type="bottom" id="RgJ-PD-glV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dNT-4d-Cza">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Gdo-5Z-Cwv">
+                                <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Gdo-5Z-Cwv" secondAttribute="bottom" id="NdA-SV-lVS"/>
+                            <constraint firstItem="Gdo-5Z-Cwv" firstAttribute="leading" secondItem="dNT-4d-Cza" secondAttribute="leading" id="aBF-L3-Fge"/>
+                            <constraint firstAttribute="trailing" secondItem="Gdo-5Z-Cwv" secondAttribute="trailing" id="aR1-6w-98W"/>
+                            <constraint firstItem="Gdo-5Z-Cwv" firstAttribute="top" secondItem="7E9-nb-lel" secondAttribute="bottom" id="mu8-Lh-f0e"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4rX-4z-0uY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LD9-dN-ZJW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="-286"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
