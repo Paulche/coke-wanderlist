@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F557BC10190453AB00241F48 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = F557BC0F190453AB00241F48 /* Resources */; };
 		F58A112918F7EA970088E8AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A112818F7EA970088E8AA /* Foundation.framework */; };
 		F58A112B18F7EA970088E8AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A112A18F7EA970088E8AA /* CoreGraphics.framework */; };
 		F58A112D18F7EA970088E8AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A112C18F7EA970088E8AA /* UIKit.framework */; };
@@ -36,7 +35,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F557BC0F190453AB00241F48 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 		F58A112518F7EA970088E8AA /* Journey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58A112818F7EA970088E8AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F58A112A18F7EA970088E8AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,7 +84,6 @@
 		F58A111C18F7EA970088E8AA = {
 			isa = PBXGroup;
 			children = (
-				F557BC0F190453AB00241F48 /* Resources */,
 				F5FA234918FD7AF000B1D552 /* UI */,
 				F58A112E18F7EA970088E8AA /* Journey */,
 				F58A114718F7EA970088E8AA /* JourneyTests */,
@@ -175,6 +172,7 @@
 				F58A112118F7EA970088E8AA /* Sources */,
 				F58A112218F7EA970088E8AA /* Frameworks */,
 				F58A112318F7EA970088E8AA /* Resources */,
+				F51724E819046DAC00C56BBC /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -253,7 +251,6 @@
 				F5FA24E318FDAFBB00B1D552 /* ipad-ui.storyboard in Resources */,
 				F58A113318F7EA970088E8AA /* InfoPlist.strings in Resources */,
 				F58A113B18F7EA970088E8AA /* Images.xcassets in Resources */,
-				F557BC10190453AB00241F48 /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +263,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F51724E819046DAC00C56BBC /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rsync -pvtrlL --cvs-exclude \\\n$PROJECT_DIR/Tours* \\\n$BUILT_PRODUCTS_DIR/$CONTENTS_FOLDER_PATH";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F58A112118F7EA970088E8AA /* Sources */ = {
