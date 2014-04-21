@@ -19,10 +19,10 @@
             </objects>
             <point key="canvasLocation" x="-134" y="-30"/>
         </scene>
-        <!--View Controller-->
+        <!--Coke Map View Controller-->
         <scene sceneID="X8t-aZ-mXr">
             <objects>
-                <viewController id="zdz-RL-2mX" sceneMemberID="viewController">
+                <viewController id="zdz-RL-2mX" customClass="CokeMapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Hv-vi-dHC"/>
                         <viewControllerLayoutGuide type="bottom" id="4QM-p2-sMf"/>

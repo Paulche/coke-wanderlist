@@ -19,6 +19,9 @@
 		F58A114418F7EA970088E8AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A112C18F7EA970088E8AA /* UIKit.framework */; };
 		F58A114C18F7EA970088E8AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F58A114A18F7EA970088E8AA /* InfoPlist.strings */; };
 		F58A114E18F7EA970088E8AA /* JourneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F58A114D18F7EA970088E8AA /* JourneyTests.m */; };
+		F59167641904F43800FA4CD3 /* CokeTourManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F59167631904F43800FA4CD3 /* CokeTourManager.m */; };
+		F59167671904F45500FA4CD3 /* CokeTour.m in Sources */ = {isa = PBXBuildFile; fileRef = F59167661904F45500FA4CD3 /* CokeTour.m */; };
+		F591676B1904FA5F00FA4CD3 /* CokeMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F591676A1904FA5F00FA4CD3 /* CokeMapViewController.m */; };
 		F5FA234818FD7AE400B1D552 /* iphone-ui.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FA234718FD7AE400B1D552 /* iphone-ui.storyboard */; };
 		F5FA24E118FDACB900B1D552 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FA24E018FDACB900B1D552 /* MapKit.framework */; };
 		F5FA24E318FDAFBB00B1D552 /* ipad-ui.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FA24E218FDAFBB00B1D552 /* ipad-ui.storyboard */; };
@@ -51,6 +54,12 @@
 		F58A114918F7EA970088E8AA /* JourneyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JourneyTests-Info.plist"; sourceTree = "<group>"; };
 		F58A114B18F7EA970088E8AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F58A114D18F7EA970088E8AA /* JourneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JourneyTests.m; sourceTree = "<group>"; };
+		F59167621904F43800FA4CD3 /* CokeTourManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CokeTourManager.h; path = Journey/CokeTourManager.h; sourceTree = "<group>"; };
+		F59167631904F43800FA4CD3 /* CokeTourManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CokeTourManager.m; path = Journey/CokeTourManager.m; sourceTree = "<group>"; };
+		F59167651904F45500FA4CD3 /* CokeTour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CokeTour.h; sourceTree = "<group>"; };
+		F59167661904F45500FA4CD3 /* CokeTour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CokeTour.m; sourceTree = "<group>"; };
+		F59167691904FA5F00FA4CD3 /* CokeMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CokeMapViewController.h; sourceTree = "<group>"; };
+		F591676A1904FA5F00FA4CD3 /* CokeMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CokeMapViewController.m; sourceTree = "<group>"; };
 		F5FA234718FD7AE400B1D552 /* iphone-ui.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "iphone-ui.storyboard"; sourceTree = "<group>"; };
 		F5FA24E018FDACB900B1D552 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F5FA24E218FDAFBB00B1D552 /* ipad-ui.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "ipad-ui.storyboard"; sourceTree = "<group>"; };
@@ -116,10 +125,13 @@
 		F58A112E18F7EA970088E8AA /* Journey */ = {
 			isa = PBXGroup;
 			children = (
+				F59167611904F3F200FA4CD3 /* Model */,
 				F58A113718F7EA970088E8AA /* CokeAppDelegate.h */,
 				F58A113818F7EA970088E8AA /* CokeAppDelegate.m */,
 				F58A113A18F7EA970088E8AA /* Images.xcassets */,
 				F58A112F18F7EA970088E8AA /* Supporting Files */,
+				F59167691904FA5F00FA4CD3 /* CokeMapViewController.h */,
+				F591676A1904FA5F00FA4CD3 /* CokeMapViewController.m */,
 			);
 			path = Journey;
 			sourceTree = "<group>";
@@ -151,6 +163,26 @@
 				F58A114A18F7EA970088E8AA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F59167611904F3F200FA4CD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F59167681904F46700FA4CD3 /* Headers */,
+				F59167631904F43800FA4CD3 /* CokeTourManager.m */,
+				F59167661904F45500FA4CD3 /* CokeTour.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F59167681904F46700FA4CD3 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				F59167621904F43800FA4CD3 /* CokeTourManager.h */,
+				F59167651904F45500FA4CD3 /* CokeTour.h */,
+			);
+			name = Headers;
 			sourceTree = "<group>";
 		};
 		F5FA234918FD7AF000B1D552 /* UI */ = {
@@ -287,7 +319,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F58A113918F7EA970088E8AA /* CokeAppDelegate.m in Sources */,
+				F591676B1904FA5F00FA4CD3 /* CokeMapViewController.m in Sources */,
+				F59167671904F45500FA4CD3 /* CokeTour.m in Sources */,
 				F58A113518F7EA970088E8AA /* main.m in Sources */,
+				F59167641904F43800FA4CD3 /* CokeTourManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
