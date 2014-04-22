@@ -7,11 +7,13 @@
 //
 
 #import "CokeAppDelegate.h"
+#import <Crashlytics/Crashlytics.h>
 
 @implementation CokeAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Crashlytics startWithAPIKey:@"eb64b23dd2765973c20b4f1f42f3cd398bc5c456"];
     return YES;
 }
 

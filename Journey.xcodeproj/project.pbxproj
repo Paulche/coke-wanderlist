@@ -22,6 +22,7 @@
 		F59167641904F43800FA4CD3 /* CokeTourManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F59167631904F43800FA4CD3 /* CokeTourManager.m */; };
 		F59167671904F45500FA4CD3 /* CokeTour.m in Sources */ = {isa = PBXBuildFile; fileRef = F59167661904F45500FA4CD3 /* CokeTour.m */; };
 		F591676B1904FA5F00FA4CD3 /* CokeMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F591676A1904FA5F00FA4CD3 /* CokeMapViewController.m */; };
+		F5EE770F1906A14C00CA48E8 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EE770E1906A14C00CA48E8 /* Crashlytics.framework */; };
 		F5FA234818FD7AE400B1D552 /* iphone-ui.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FA234718FD7AE400B1D552 /* iphone-ui.storyboard */; };
 		F5FA24E118FDACB900B1D552 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FA24E018FDACB900B1D552 /* MapKit.framework */; };
 		F5FA24E318FDAFBB00B1D552 /* ipad-ui.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FA24E218FDAFBB00B1D552 /* ipad-ui.storyboard */; };
@@ -60,6 +61,7 @@
 		F59167661904F45500FA4CD3 /* CokeTour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CokeTour.m; sourceTree = "<group>"; };
 		F59167691904FA5F00FA4CD3 /* CokeMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CokeMapViewController.h; sourceTree = "<group>"; };
 		F591676A1904FA5F00FA4CD3 /* CokeMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CokeMapViewController.m; sourceTree = "<group>"; };
+		F5EE770E1906A14C00CA48E8 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		F5FA234718FD7AE400B1D552 /* iphone-ui.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "iphone-ui.storyboard"; sourceTree = "<group>"; };
 		F5FA24E018FDACB900B1D552 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F5FA24E218FDAFBB00B1D552 /* ipad-ui.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "ipad-ui.storyboard"; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5FA24E118FDACB900B1D552 /* MapKit.framework in Frameworks */,
+				F5EE770F1906A14C00CA48E8 /* Crashlytics.framework in Frameworks */,
 				F58A112B18F7EA970088E8AA /* CoreGraphics.framework in Frameworks */,
 				F58A112D18F7EA970088E8AA /* UIKit.framework in Frameworks */,
 				F58A112918F7EA970088E8AA /* Foundation.framework in Frameworks */,
@@ -113,6 +116,7 @@
 		F58A112718F7EA970088E8AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F5EE770E1906A14C00CA48E8 /* Crashlytics.framework */,
 				F5FA24E018FDACB900B1D552 /* MapKit.framework */,
 				F58A112818F7EA970088E8AA /* Foundation.framework */,
 				F58A112A18F7EA970088E8AA /* CoreGraphics.framework */,
@@ -205,6 +209,7 @@
 				F58A112218F7EA970088E8AA /* Frameworks */,
 				F58A112318F7EA970088E8AA /* Resources */,
 				F51724E819046DAC00C56BBC /* Run Script */,
+				F5EE770D1906A10100CA48E8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -310,6 +315,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "rsync -pvtrlL --cvs-exclude \\\n$PROJECT_DIR/Tours* \\\n$BUILT_PRODUCTS_DIR/$CONTENTS_FOLDER_PATH";
+		};
+		F5EE770D1906A10100CA48E8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run eb64b23dd2765973c20b4f1f42f3cd398bc5c456 a2a0faf9fb7bec0ac6aec271c78a184f6e1d9b9326159e5ecf7820bbcb3fcedc";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -442,6 +460,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Journey/Journey-Prefix.pch";
 				INFOPLIST_FILE = "Journey/Journey-Info.plist";
@@ -457,6 +479,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Journey/Journey-Prefix.pch";
 				INFOPLIST_FILE = "Journey/Journey-Info.plist";
