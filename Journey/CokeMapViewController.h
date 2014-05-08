@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface CokeMapViewController : UIViewController
+
+@interface CokeMapViewController : UIViewController<MKMapViewDelegate>
+
+@property (weak, nonatomic) IBOutlet MKMapView *outletMapView;
 
 @end

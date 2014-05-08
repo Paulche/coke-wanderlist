@@ -61,6 +61,66 @@
 		F59167661904F45500FA4CD3 /* CokeTour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CokeTour.m; sourceTree = "<group>"; };
 		F59167691904FA5F00FA4CD3 /* CokeMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CokeMapViewController.h; sourceTree = "<group>"; };
 		F591676A1904FA5F00FA4CD3 /* CokeMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CokeMapViewController.m; sourceTree = "<group>"; };
+		F5D72D17190D55F900CB95C6 /* 044B8CF8-2BBF-4F3A-B9D7-4A08D118A1B6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "044B8CF8-2BBF-4F3A-B9D7-4A08D118A1B6.mp3"; sourceTree = "<group>"; };
+		F5D72D18190D55F900CB95C6 /* 07A02ACD-9399-47F1-90C5-981B162D5914.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07A02ACD-9399-47F1-90C5-981B162D5914.mp3"; sourceTree = "<group>"; };
+		F5D72D19190D55F900CB95C6 /* 095D0DCA-4840-42BE-A4B6-D4CF8CF76E5C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "095D0DCA-4840-42BE-A4B6-D4CF8CF76E5C.mp3"; sourceTree = "<group>"; };
+		F5D72D1A190D55F900CB95C6 /* 1B683190-7E3F-4B72-BA95-97564B6EEDE9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1B683190-7E3F-4B72-BA95-97564B6EEDE9.mp3"; sourceTree = "<group>"; };
+		F5D72D1B190D55F900CB95C6 /* 1CD65913-0E73-40FC-AC22-1B216CD7D765.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1CD65913-0E73-40FC-AC22-1B216CD7D765.mp3"; sourceTree = "<group>"; };
+		F5D72D1C190D55F900CB95C6 /* 25E3893D-C014-4AFB-9F97-8C7DA0182B71.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "25E3893D-C014-4AFB-9F97-8C7DA0182B71.mp3"; sourceTree = "<group>"; };
+		F5D72D1D190D55F900CB95C6 /* 37DA9593-6750-41AC-83D3-DD4E1CF2A32A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "37DA9593-6750-41AC-83D3-DD4E1CF2A32A.mp3"; sourceTree = "<group>"; };
+		F5D72D1E190D55F900CB95C6 /* 49FD2ADD-DB63-454F-856B-775E90D35CBD.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "49FD2ADD-DB63-454F-856B-775E90D35CBD.mp3"; sourceTree = "<group>"; };
+		F5D72D1F190D55F900CB95C6 /* 52468088-B1F6-499A-9A14-83561BDC976C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "52468088-B1F6-499A-9A14-83561BDC976C.mp3"; sourceTree = "<group>"; };
+		F5D72D20190D55F900CB95C6 /* 5F916FA7-ACDA-485E-9A5A-6BB27EA34CBD.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "5F916FA7-ACDA-485E-9A5A-6BB27EA34CBD.mp3"; sourceTree = "<group>"; };
+		F5D72D21190D55F900CB95C6 /* 762BC367-437A-4DA2-BBC9-B5CFB4A5D426.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "762BC367-437A-4DA2-BBC9-B5CFB4A5D426.mp3"; sourceTree = "<group>"; };
+		F5D72D22190D55F900CB95C6 /* 82A63853-9008-4399-BAF2-46DC147A17E7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "82A63853-9008-4399-BAF2-46DC147A17E7.mp3"; sourceTree = "<group>"; };
+		F5D72D23190D55F900CB95C6 /* 87407F24-6407-4088-9425-CB08498C201C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "87407F24-6407-4088-9425-CB08498C201C.mp3"; sourceTree = "<group>"; };
+		F5D72D24190D55F900CB95C6 /* 94D9977F-D7F0-49C9-B999-60EA2AA10C97.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "94D9977F-D7F0-49C9-B999-60EA2AA10C97.mp3"; sourceTree = "<group>"; };
+		F5D72D25190D55F900CB95C6 /* 9B762FDE-01FF-4B68-8484-A4C9C636BFFE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "9B762FDE-01FF-4B68-8484-A4C9C636BFFE.mp3"; sourceTree = "<group>"; };
+		F5D72D26190D55F900CB95C6 /* A80DB3E2-CF0F-40D0-9683-BAA60BF08BC3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A80DB3E2-CF0F-40D0-9683-BAA60BF08BC3.mp3"; sourceTree = "<group>"; };
+		F5D72D27190D55F900CB95C6 /* AB15E913-0D7A-4F1B-A1A8-B4507544EE22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "AB15E913-0D7A-4F1B-A1A8-B4507544EE22.mp3"; sourceTree = "<group>"; };
+		F5D72D28190D55F900CB95C6 /* BEC6A3EE-8516-4BA8-BEE5-91593CD3A382.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "BEC6A3EE-8516-4BA8-BEE5-91593CD3A382.mp3"; sourceTree = "<group>"; };
+		F5D72D29190D55F900CB95C6 /* C244F5E2-AD4A-4D77-A0B5-21012661F5C3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C244F5E2-AD4A-4D77-A0B5-21012661F5C3.mp3"; sourceTree = "<group>"; };
+		F5D72D2A190D55F900CB95C6 /* C2548404-32DC-4AEE-AA32-3F48F4B49936.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C2548404-32DC-4AEE-AA32-3F48F4B49936.mp3"; sourceTree = "<group>"; };
+		F5D72D2B190D55F900CB95C6 /* CD7DD524-BBF7-4508-A7EA-F329C1A2FE5C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "CD7DD524-BBF7-4508-A7EA-F329C1A2FE5C.mp3"; sourceTree = "<group>"; };
+		F5D72D2C190D55F900CB95C6 /* DA815C88-DB52-4D95-B090-BD201FB4FC8D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DA815C88-DB52-4D95-B090-BD201FB4FC8D.mp3"; sourceTree = "<group>"; };
+		F5D72D2D190D55F900CB95C6 /* DEC6FF35-6E52-4CAC-9C69-0AD41525846B.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DEC6FF35-6E52-4CAC-9C69-0AD41525846B.mp3"; sourceTree = "<group>"; };
+		F5D72D2E190D55F900CB95C6 /* E1A81B5A-FBAB-42A3-840F-76EC7A0BEB3A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "E1A81B5A-FBAB-42A3-840F-76EC7A0BEB3A.mp3"; sourceTree = "<group>"; };
+		F5D72D2F190D55F900CB95C6 /* E237F4A7-1D48-4298-A175-70B56E534D62.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "E237F4A7-1D48-4298-A175-70B56E534D62.mp3"; sourceTree = "<group>"; };
+		F5D72D30190D55F900CB95C6 /* E8A1C351-863F-4C27-AC1A-4E7AA87608C5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "E8A1C351-863F-4C27-AC1A-4E7AA87608C5.mp3"; sourceTree = "<group>"; };
+		F5D72D31190D55F900CB95C6 /* EB871367-00C5-4B85-B479-4BEFE96E6273.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "EB871367-00C5-4B85-B479-4BEFE96E6273.mp3"; sourceTree = "<group>"; };
+		F5D72D32190D55F900CB95C6 /* F56BE544-FE61-4B84-99DF-2F0F6B006C0F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F56BE544-FE61-4B84-99DF-2F0F6B006C0F.mp3"; sourceTree = "<group>"; };
+		F5D72D33190D55F900CB95C6 /* F71EA7EE-C94B-475C-931B-00CCB69E4C88.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F71EA7EE-C94B-475C-931B-00CCB69E4C88.mp3"; sourceTree = "<group>"; };
+		F5D72D35190D55F900CB95C6 /* 04270563-10EA-4AF6-8E89-21A8CB0F54E2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04270563-10EA-4AF6-8E89-21A8CB0F54E2.jpg"; sourceTree = "<group>"; };
+		F5D72D36190D55F900CB95C6 /* 067AA25F-1E70-4809-A3E7-0DFFBF352A68.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "067AA25F-1E70-4809-A3E7-0DFFBF352A68.jpg"; sourceTree = "<group>"; };
+		F5D72D37190D55F900CB95C6 /* 0AC6FBD2-2DE2-4DE7-AB14-71D692BEB21A.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0AC6FBD2-2DE2-4DE7-AB14-71D692BEB21A.jpg"; sourceTree = "<group>"; };
+		F5D72D38190D55F900CB95C6 /* 14A38382-E211-423B-844A-653F929FDC73.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "14A38382-E211-423B-844A-653F929FDC73.jpg"; sourceTree = "<group>"; };
+		F5D72D39190D55F900CB95C6 /* 22C00F69-3655-46B5-B2E0-ACF5998794DC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "22C00F69-3655-46B5-B2E0-ACF5998794DC.jpg"; sourceTree = "<group>"; };
+		F5D72D3A190D55F900CB95C6 /* 2699D3DC-9596-437E-9D8F-E4F78CB0A408.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2699D3DC-9596-437E-9D8F-E4F78CB0A408.jpg"; sourceTree = "<group>"; };
+		F5D72D3B190D55F900CB95C6 /* 359B07B0-A0E1-4F57-A0B9-6983E917FDCA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "359B07B0-A0E1-4F57-A0B9-6983E917FDCA.jpg"; sourceTree = "<group>"; };
+		F5D72D3C190D55F900CB95C6 /* 3A50382C-F1B3-4311-B2E1-C4D868919CB0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3A50382C-F1B3-4311-B2E1-C4D868919CB0.jpg"; sourceTree = "<group>"; };
+		F5D72D3D190D55F900CB95C6 /* 402BBB7D-6366-44CB-B3C7-CA65B1910086.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "402BBB7D-6366-44CB-B3C7-CA65B1910086.jpg"; sourceTree = "<group>"; };
+		F5D72D3E190D55F900CB95C6 /* 45C7936F-2260-454E-B4FA-9F4499BC2276.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "45C7936F-2260-454E-B4FA-9F4499BC2276.jpg"; sourceTree = "<group>"; };
+		F5D72D3F190D55F900CB95C6 /* 5DDB709E-A045-4870-8977-53FE7EABDA58.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5DDB709E-A045-4870-8977-53FE7EABDA58.jpg"; sourceTree = "<group>"; };
+		F5D72D40190D55F900CB95C6 /* 618CCD3B-5483-4B6B-BA63-64C5CFA178EA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "618CCD3B-5483-4B6B-BA63-64C5CFA178EA.jpg"; sourceTree = "<group>"; };
+		F5D72D41190D55F900CB95C6 /* 652019D6-6C1B-4F96-86FC-FB1092BAA188.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "652019D6-6C1B-4F96-86FC-FB1092BAA188.jpg"; sourceTree = "<group>"; };
+		F5D72D42190D55F900CB95C6 /* 68575444-F7E7-4957-91A0-A2F4D7028D8F.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "68575444-F7E7-4957-91A0-A2F4D7028D8F.jpg"; sourceTree = "<group>"; };
+		F5D72D43190D55F900CB95C6 /* 6A9AC86E-E107-4308-9DC2-757C60149192.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6A9AC86E-E107-4308-9DC2-757C60149192.jpg"; sourceTree = "<group>"; };
+		F5D72D44190D55F900CB95C6 /* 73604F51-738A-419E-BA27-B3389D655231.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "73604F51-738A-419E-BA27-B3389D655231.jpg"; sourceTree = "<group>"; };
+		F5D72D45190D55F900CB95C6 /* 89A67DC8-8C48-49F2-A6E2-AB39E2D53DA8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "89A67DC8-8C48-49F2-A6E2-AB39E2D53DA8.jpg"; sourceTree = "<group>"; };
+		F5D72D46190D55F900CB95C6 /* 8FF19736-E735-47BD-BE49-F0530952DFDB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8FF19736-E735-47BD-BE49-F0530952DFDB.jpg"; sourceTree = "<group>"; };
+		F5D72D47190D55F900CB95C6 /* 9CE2C63B-D979-4D82-B400-0CAE5007189C.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9CE2C63B-D979-4D82-B400-0CAE5007189C.jpg"; sourceTree = "<group>"; };
+		F5D72D48190D55F900CB95C6 /* 9D2FDD73-F13A-4449-ABAB-C02680765452.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9D2FDD73-F13A-4449-ABAB-C02680765452.jpg"; sourceTree = "<group>"; };
+		F5D72D49190D55F900CB95C6 /* A476C1E7-2FB4-446A-AE3B-AFB5F52DC778.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "A476C1E7-2FB4-446A-AE3B-AFB5F52DC778.jpg"; sourceTree = "<group>"; };
+		F5D72D4A190D55F900CB95C6 /* AA31943A-4B59-431A-8F7B-0800EE1B5B3E.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "AA31943A-4B59-431A-8F7B-0800EE1B5B3E.jpg"; sourceTree = "<group>"; };
+		F5D72D4B190D55F900CB95C6 /* B5C6A811-7203-4EB0-A40E-6BB33618AAFF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "B5C6A811-7203-4EB0-A40E-6BB33618AAFF.jpg"; sourceTree = "<group>"; };
+		F5D72D4C190D55F900CB95C6 /* C65ABEC1-B09B-42EC-8BB5-9E8824BDD3B4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "C65ABEC1-B09B-42EC-8BB5-9E8824BDD3B4.jpg"; sourceTree = "<group>"; };
+		F5D72D4D190D55F900CB95C6 /* E0F505CF-F241-485F-AE1A-AAA9858F5E10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E0F505CF-F241-485F-AE1A-AAA9858F5E10.jpg"; sourceTree = "<group>"; };
+		F5D72D4E190D55F900CB95C6 /* E1B49239-93B3-4517-BCE2-774B444D5D00.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E1B49239-93B3-4517-BCE2-774B444D5D00.jpg"; sourceTree = "<group>"; };
+		F5D72D4F190D55F900CB95C6 /* E82F6226-6888-4780-8AC2-FB7FCD0EF0A6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "E82F6226-6888-4780-8AC2-FB7FCD0EF0A6.jpg"; sourceTree = "<group>"; };
+		F5D72D50190D55F900CB95C6 /* ED339DA7-2590-4850-BBC2-06A66079321F.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ED339DA7-2590-4850-BBC2-06A66079321F.jpg"; sourceTree = "<group>"; };
+		F5D72D51190D55F900CB95C6 /* F988BBDE-7BD2-4199-9D4F-4E42131E0743.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "F988BBDE-7BD2-4199-9D4F-4E42131E0743.jpg"; sourceTree = "<group>"; };
+		F5D72D52190D55F900CB95C6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D72D53190D55F900CB95C6 /* Text.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Text.plist; sourceTree = "<group>"; };
 		F5EE770E1906A14C00CA48E8 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		F5FA234718FD7AE400B1D552 /* iphone-ui.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "iphone-ui.storyboard"; sourceTree = "<group>"; };
 		F5FA24E018FDACB900B1D552 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -96,6 +156,7 @@
 		F58A111C18F7EA970088E8AA = {
 			isa = PBXGroup;
 			children = (
+				F5D72D14190D55F900CB95C6 /* Tours */,
 				F5FA234918FD7AF000B1D552 /* UI */,
 				F58A112E18F7EA970088E8AA /* Journey */,
 				F58A114718F7EA970088E8AA /* JourneyTests */,
@@ -189,6 +250,97 @@
 			name = Headers;
 			sourceTree = "<group>";
 		};
+		F5D72D14190D55F900CB95C6 /* Tours */ = {
+			isa = PBXGroup;
+			children = (
+				F5D72D15190D55F900CB95C6 /* FA53597E-51E8-4EFD-89CB-24E75BE100D5 */,
+			);
+			path = Tours;
+			sourceTree = "<group>";
+		};
+		F5D72D15190D55F900CB95C6 /* FA53597E-51E8-4EFD-89CB-24E75BE100D5 */ = {
+			isa = PBXGroup;
+			children = (
+				F5D72D16190D55F900CB95C6 /* Audios */,
+				F5D72D34190D55F900CB95C6 /* Images */,
+				F5D72D52190D55F900CB95C6 /* Info.plist */,
+				F5D72D53190D55F900CB95C6 /* Text.plist */,
+			);
+			path = "FA53597E-51E8-4EFD-89CB-24E75BE100D5";
+			sourceTree = "<group>";
+		};
+		F5D72D16190D55F900CB95C6 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				F5D72D17190D55F900CB95C6 /* 044B8CF8-2BBF-4F3A-B9D7-4A08D118A1B6.mp3 */,
+				F5D72D18190D55F900CB95C6 /* 07A02ACD-9399-47F1-90C5-981B162D5914.mp3 */,
+				F5D72D19190D55F900CB95C6 /* 095D0DCA-4840-42BE-A4B6-D4CF8CF76E5C.mp3 */,
+				F5D72D1A190D55F900CB95C6 /* 1B683190-7E3F-4B72-BA95-97564B6EEDE9.mp3 */,
+				F5D72D1B190D55F900CB95C6 /* 1CD65913-0E73-40FC-AC22-1B216CD7D765.mp3 */,
+				F5D72D1C190D55F900CB95C6 /* 25E3893D-C014-4AFB-9F97-8C7DA0182B71.mp3 */,
+				F5D72D1D190D55F900CB95C6 /* 37DA9593-6750-41AC-83D3-DD4E1CF2A32A.mp3 */,
+				F5D72D1E190D55F900CB95C6 /* 49FD2ADD-DB63-454F-856B-775E90D35CBD.mp3 */,
+				F5D72D1F190D55F900CB95C6 /* 52468088-B1F6-499A-9A14-83561BDC976C.mp3 */,
+				F5D72D20190D55F900CB95C6 /* 5F916FA7-ACDA-485E-9A5A-6BB27EA34CBD.mp3 */,
+				F5D72D21190D55F900CB95C6 /* 762BC367-437A-4DA2-BBC9-B5CFB4A5D426.mp3 */,
+				F5D72D22190D55F900CB95C6 /* 82A63853-9008-4399-BAF2-46DC147A17E7.mp3 */,
+				F5D72D23190D55F900CB95C6 /* 87407F24-6407-4088-9425-CB08498C201C.mp3 */,
+				F5D72D24190D55F900CB95C6 /* 94D9977F-D7F0-49C9-B999-60EA2AA10C97.mp3 */,
+				F5D72D25190D55F900CB95C6 /* 9B762FDE-01FF-4B68-8484-A4C9C636BFFE.mp3 */,
+				F5D72D26190D55F900CB95C6 /* A80DB3E2-CF0F-40D0-9683-BAA60BF08BC3.mp3 */,
+				F5D72D27190D55F900CB95C6 /* AB15E913-0D7A-4F1B-A1A8-B4507544EE22.mp3 */,
+				F5D72D28190D55F900CB95C6 /* BEC6A3EE-8516-4BA8-BEE5-91593CD3A382.mp3 */,
+				F5D72D29190D55F900CB95C6 /* C244F5E2-AD4A-4D77-A0B5-21012661F5C3.mp3 */,
+				F5D72D2A190D55F900CB95C6 /* C2548404-32DC-4AEE-AA32-3F48F4B49936.mp3 */,
+				F5D72D2B190D55F900CB95C6 /* CD7DD524-BBF7-4508-A7EA-F329C1A2FE5C.mp3 */,
+				F5D72D2C190D55F900CB95C6 /* DA815C88-DB52-4D95-B090-BD201FB4FC8D.mp3 */,
+				F5D72D2D190D55F900CB95C6 /* DEC6FF35-6E52-4CAC-9C69-0AD41525846B.mp3 */,
+				F5D72D2E190D55F900CB95C6 /* E1A81B5A-FBAB-42A3-840F-76EC7A0BEB3A.mp3 */,
+				F5D72D2F190D55F900CB95C6 /* E237F4A7-1D48-4298-A175-70B56E534D62.mp3 */,
+				F5D72D30190D55F900CB95C6 /* E8A1C351-863F-4C27-AC1A-4E7AA87608C5.mp3 */,
+				F5D72D31190D55F900CB95C6 /* EB871367-00C5-4B85-B479-4BEFE96E6273.mp3 */,
+				F5D72D32190D55F900CB95C6 /* F56BE544-FE61-4B84-99DF-2F0F6B006C0F.mp3 */,
+				F5D72D33190D55F900CB95C6 /* F71EA7EE-C94B-475C-931B-00CCB69E4C88.mp3 */,
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		F5D72D34190D55F900CB95C6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F5D72D35190D55F900CB95C6 /* 04270563-10EA-4AF6-8E89-21A8CB0F54E2.jpg */,
+				F5D72D36190D55F900CB95C6 /* 067AA25F-1E70-4809-A3E7-0DFFBF352A68.jpg */,
+				F5D72D37190D55F900CB95C6 /* 0AC6FBD2-2DE2-4DE7-AB14-71D692BEB21A.jpg */,
+				F5D72D38190D55F900CB95C6 /* 14A38382-E211-423B-844A-653F929FDC73.jpg */,
+				F5D72D39190D55F900CB95C6 /* 22C00F69-3655-46B5-B2E0-ACF5998794DC.jpg */,
+				F5D72D3A190D55F900CB95C6 /* 2699D3DC-9596-437E-9D8F-E4F78CB0A408.jpg */,
+				F5D72D3B190D55F900CB95C6 /* 359B07B0-A0E1-4F57-A0B9-6983E917FDCA.jpg */,
+				F5D72D3C190D55F900CB95C6 /* 3A50382C-F1B3-4311-B2E1-C4D868919CB0.jpg */,
+				F5D72D3D190D55F900CB95C6 /* 402BBB7D-6366-44CB-B3C7-CA65B1910086.jpg */,
+				F5D72D3E190D55F900CB95C6 /* 45C7936F-2260-454E-B4FA-9F4499BC2276.jpg */,
+				F5D72D3F190D55F900CB95C6 /* 5DDB709E-A045-4870-8977-53FE7EABDA58.jpg */,
+				F5D72D40190D55F900CB95C6 /* 618CCD3B-5483-4B6B-BA63-64C5CFA178EA.jpg */,
+				F5D72D41190D55F900CB95C6 /* 652019D6-6C1B-4F96-86FC-FB1092BAA188.jpg */,
+				F5D72D42190D55F900CB95C6 /* 68575444-F7E7-4957-91A0-A2F4D7028D8F.jpg */,
+				F5D72D43190D55F900CB95C6 /* 6A9AC86E-E107-4308-9DC2-757C60149192.jpg */,
+				F5D72D44190D55F900CB95C6 /* 73604F51-738A-419E-BA27-B3389D655231.jpg */,
+				F5D72D45190D55F900CB95C6 /* 89A67DC8-8C48-49F2-A6E2-AB39E2D53DA8.jpg */,
+				F5D72D46190D55F900CB95C6 /* 8FF19736-E735-47BD-BE49-F0530952DFDB.jpg */,
+				F5D72D47190D55F900CB95C6 /* 9CE2C63B-D979-4D82-B400-0CAE5007189C.jpg */,
+				F5D72D48190D55F900CB95C6 /* 9D2FDD73-F13A-4449-ABAB-C02680765452.jpg */,
+				F5D72D49190D55F900CB95C6 /* A476C1E7-2FB4-446A-AE3B-AFB5F52DC778.jpg */,
+				F5D72D4A190D55F900CB95C6 /* AA31943A-4B59-431A-8F7B-0800EE1B5B3E.jpg */,
+				F5D72D4B190D55F900CB95C6 /* B5C6A811-7203-4EB0-A40E-6BB33618AAFF.jpg */,
+				F5D72D4C190D55F900CB95C6 /* C65ABEC1-B09B-42EC-8BB5-9E8824BDD3B4.jpg */,
+				F5D72D4D190D55F900CB95C6 /* E0F505CF-F241-485F-AE1A-AAA9858F5E10.jpg */,
+				F5D72D4E190D55F900CB95C6 /* E1B49239-93B3-4517-BCE2-774B444D5D00.jpg */,
+				F5D72D4F190D55F900CB95C6 /* E82F6226-6888-4780-8AC2-FB7FCD0EF0A6.jpg */,
+				F5D72D50190D55F900CB95C6 /* ED339DA7-2590-4850-BBC2-06A66079321F.jpg */,
+				F5D72D51190D55F900CB95C6 /* F988BBDE-7BD2-4199-9D4F-4E42131E0743.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		F5FA234918FD7AF000B1D552 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -209,7 +361,7 @@
 				F58A112218F7EA970088E8AA /* Frameworks */,
 				F58A112318F7EA970088E8AA /* Resources */,
 				F51724E819046DAC00C56BBC /* Run Script */,
-				F5EE770D1906A10100CA48E8 /* ShellScript */,
+				F5EE770D1906A10100CA48E8 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -316,13 +468,14 @@
 			shellPath = /bin/sh;
 			shellScript = "rsync -pvtrlL --cvs-exclude \\\n$PROJECT_DIR/Tours* \\\n$BUILT_PRODUCTS_DIR/$CONTENTS_FOLDER_PATH";
 		};
-		F5EE770D1906A10100CA48E8 /* ShellScript */ = {
+		F5EE770D1906A10100CA48E8 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Run Script";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;

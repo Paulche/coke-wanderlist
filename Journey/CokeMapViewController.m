@@ -36,8 +36,6 @@
     CokeTourManager * tourManager = [CokeTourManager sharedInstance];
     
     CokeTour * tour = [tourManager tourWithUuid:UUID];
-    
-    //Draw Point of Interest of tour on the map
 }
 
 - (void)didReceiveMemoryWarning
