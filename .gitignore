@@ -1,2 +1,4 @@
 *.xcodeproj/project.xcworkspace/xcuserdata
 *.xcodeproj/xcuserdata/*.xcuserdatad/
+*.xcworkspace/xcuserdata/*.xcuserdatad/
+Pods

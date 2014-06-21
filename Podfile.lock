@@ -1,0 +1,14 @@
+PODS:
+  - MBXMapKit (0.2.1.0)
+
+DEPENDENCIES:
+  - MBXMapKit (from `https://github.com/KentMcCullough/mbxmapkit.git`)
+
+EXTERNAL SOURCES:
+  MBXMapKit:
+    :git: https://github.com/KentMcCullough/mbxmapkit.git
+
+SPEC CHECKSUMS:
+  MBXMapKit: 94263f62da25d210d13b1f1c720ebbdf954a8cf3
+
+COCOAPODS: 0.33.1

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132E2044419F40729D6A083F /* libPods-Journey.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A5F34E66624DDBBCABD720 /* libPods-Journey.a */; };
+		F51F2C54193FA6DA00640D98 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F51F2C53193FA6DA00640D98 /* libsqlite3.dylib */; };
 		F58A112918F7EA970088E8AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A112818F7EA970088E8AA /* Foundation.framework */; };
 		F58A112B18F7EA970088E8AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A112A18F7EA970088E8AA /* CoreGraphics.framework */; };
 		F58A112D18F7EA970088E8AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58A112C18F7EA970088E8AA /* UIKit.framework */; };
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12A5F34E66624DDBBCABD720 /* libPods-Journey.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Journey.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FB323561FF4C0F9EFEC75D /* Pods-Journey.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Journey.xcconfig"; path = "Pods/Pods-Journey.xcconfig"; sourceTree = "<group>"; };
+		F51F2C53193FA6DA00640D98 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		F58A112518F7EA970088E8AA /* Journey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58A112818F7EA970088E8AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F58A112A18F7EA970088E8AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,11 +137,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51F2C54193FA6DA00640D98 /* libsqlite3.dylib in Frameworks */,
 				F5FA24E118FDACB900B1D552 /* MapKit.framework in Frameworks */,
 				F5EE770F1906A14C00CA48E8 /* Crashlytics.framework in Frameworks */,
 				F58A112B18F7EA970088E8AA /* CoreGraphics.framework in Frameworks */,
 				F58A112D18F7EA970088E8AA /* UIKit.framework in Frameworks */,
 				F58A112918F7EA970088E8AA /* Foundation.framework in Frameworks */,
+				132E2044419F40729D6A083F /* libPods-Journey.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +169,7 @@
 				F58A114718F7EA970088E8AA /* JourneyTests */,
 				F58A112718F7EA970088E8AA /* Frameworks */,
 				F58A112618F7EA970088E8AA /* Products */,
+				49FB323561FF4C0F9EFEC75D /* Pods-Journey.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,12 +185,14 @@
 		F58A112718F7EA970088E8AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F51F2C53193FA6DA00640D98 /* libsqlite3.dylib */,
 				F5EE770E1906A14C00CA48E8 /* Crashlytics.framework */,
 				F5FA24E018FDACB900B1D552 /* MapKit.framework */,
 				F58A112818F7EA970088E8AA /* Foundation.framework */,
 				F58A112A18F7EA970088E8AA /* CoreGraphics.framework */,
 				F58A112C18F7EA970088E8AA /* UIKit.framework */,
 				F58A114118F7EA970088E8AA /* XCTest.framework */,
+				12A5F34E66624DDBBCABD720 /* libPods-Journey.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -357,11 +367,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F58A115118F7EA970088E8AA /* Build configuration list for PBXNativeTarget "Journey" */;
 			buildPhases = (
+				BD91074845A247D68E0BC530 /* Check Pods Manifest.lock */,
 				F58A112118F7EA970088E8AA /* Sources */,
 				F58A112218F7EA970088E8AA /* Frameworks */,
 				F58A112318F7EA970088E8AA /* Resources */,
 				F51724E819046DAC00C56BBC /* Run Script */,
 				F5EE770D1906A10100CA48E8 /* Run Script */,
+				7BBA55696DA547CEB1128EF5 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -454,6 +466,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		7BBA55696DA547CEB1128EF5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Journey-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD91074845A247D68E0BC530 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		F51724E819046DAC00C56BBC /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -609,6 +651,7 @@
 		};
 		F58A115218F7EA970088E8AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49FB323561FF4C0F9EFEC75D /* Pods-Journey.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -628,6 +671,7 @@
 		};
 		F58A115318F7EA970088E8AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49FB323561FF4C0F9EFEC75D /* Pods-Journey.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
